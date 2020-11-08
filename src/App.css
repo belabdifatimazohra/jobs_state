@@ -36,3 +36,112 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  margin          : 40px;
+  font-family     : Spartan;
+  background-color: hsl(180, 52%, 96%);
+  padding         : 20px;
+  display         : flex;
+  justify-items   : start;
+  text-align      : center;
+  align-items     : center;
+  justify-content : center;
+  background-color: #ffffff;
+  box-shadow      : 6px 6px 20px -10px hsl(180, 8%, 52%);
+}
+
+.border_featured {
+  border-left: solid 3px hsl(180, 29%, 50%);
+}
+
+.container img {
+  padding: 10px;
+}
+
+.job-desc {
+  flex          : 1;
+  display       : flex;
+  flex-direction: column;
+  text-align    : start;
+  color         : hsl(180, 14%, 20%);
+}
+
+.job-desc h5 {
+  font-weight: 700;
+}
+
+.job-desc span {
+  display     : inline;
+  margin-right: 10px;
+  font-weight : 500;
+  color       : hsl(180, 8%, 52%);
+}
+
+.job-language {
+  flex: 1;
+}
+
+.job-language span {
+  padding         : 5px;
+  margin          : 10px;
+  background-color: hsl(180, 31%, 95%);
+  color           : hsl(180, 29%, 50%);
+}
+
+.new {
+  background-color: hsl(180, 29%, 50%);
+  padding         : 5px;
+  border-radius   : 10px;
+  color           : #ffffff !important;
+  font-size       : 12px;
+}
+
+.featured {
+  background-color: hsl(180, 14%, 20%);
+  padding         : 5px;
+  border-radius   : 10px;
+  color           : #ffffff !important;
+  font-size       : 12px;
+}
+
+
+.bg-job {
+  background-image : url(bg-header-desktop.svg);
+  height           : 150px;
+  background-repeat: no-repeat;
+  background-size  : cover;
+  background-color : hsl(180, 29%, 50%);
+}
+
+button{
+
+  background-color: hsl(180, 29%, 50%);
+  border          : none;
+  color           : white;
+  padding         : 20px;
+  text-align      : center;
+  text-decoration : none;
+  display         : inline-block;
+  font-size       : 16px;
+  margin          : 4px 2px;
+  border-radius: 50%;
+  border: 0 #ffffff;
+  outline: none;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color           : black;
+}
+
+.next {
+  background-color:hsl(180, 29%, 50%);
+  color           : white;
+}
+

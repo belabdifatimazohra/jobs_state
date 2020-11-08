@@ -1,0 +1,13 @@
+Colors :
+
+color: hsl(180, 29%, 50%);
+color: hsl(180, 52%, 96%);
+color: hsl(180, 31%, 95%);
+color: hsl(180, 8%, 52%);
+color: hsl(180, 14%, 20%);
+
+Font :
+
+Family: Spartan
+Weights: 500, 700
+
